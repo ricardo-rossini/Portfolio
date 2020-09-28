@@ -37,7 +37,7 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Ipsam, fugit quia sed quas molestias beatae deleniti corrupti nesciunt modi dicta 
                     voluptas saepe excepturi explicabo exercitationem odit temporibus unde repudiandae 
-                    officia.Ipsam, fugit quia sed quas molestias beatae deleniti corrupti nesciunt modi dicta 
+                    officia. Ipsam, fugit quia sed quas molestias beatae deleniti corrupti nesciunt modi dicta 
                     voluptas saepe excepturi explicabo exercitationem odit temporibus unde repudiandae 
                     officia.
                 </p>
@@ -52,5 +52,11 @@
             </div>
         </div>
     </section>
+    <script>
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
