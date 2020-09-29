@@ -145,3 +145,42 @@ p{
 img{
     max-width: 100%;
 }
+
+.services{
+    background: #111;
+}
+
+.heading.white{
+    color: #fff;
+}
+
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBX{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.services .content .servicesBX:hover{
+    background: #2196f3;
+}
+
+.services .content .servicesBX img{
+    max-width: 80px;
+    filter: invert(1);
+}
+
+.services .content .servicesBX h2{
+    font-size: 20px;
+    font-weight: 600;
+}
